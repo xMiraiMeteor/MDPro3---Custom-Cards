@@ -19,28 +19,13 @@ A short, practical guide to package your custom Yu-Gi-Oh! cards for **MDPro3**, 
 
 Have these ready:
 
-* **Artworks** (not rendered; raw artwork files)
+* **Artworks**
 * **Scripts** (your Lua card scripts)
 * **`.cdb`** (SQLite database containing your card data)
 
 ---
 
-## 2) (Optional) Render your cards in MDPro3
-
-If you want to ship rendered images (recommended):
-
-1. Place your **artworks** in the folder **`Art2`** (MDPro3 uses this when rendering).
-2. Build a deck with your custom cards.
-3. In MDPro3, open any card in that deck → **Save Image** → **Current Deck’s Card Images**.
-4. Your rendered images will be output to:
-
-   ```
-   root\MDPro3\Picture\CardGenerated
-   ```
-
----
-
-## 3) Build your pack with the Empty Model
+## 2) Build your pack with the Empty Model
 
 1. Download the **Empty Model** (`.ypk`)
    👉 [Empty Model.ypk](https://github.com/ElderLich/MDPro3---Custom-Cards/raw/refs/heads/main/000.%20Empty/Empty%20Model.ypk)
